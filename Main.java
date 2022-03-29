@@ -2,12 +2,12 @@ class Main {
 
   public static void draw(int w){
     for(int i = 1;i<=w;i++){
-      for(int j=0;j<(w-i);j++){
+      for(int j=0;j<(w-i);j++)
         System.out.print(" ");
-      }
-      for(int j=0;j<i;j++){
+      
+      for(int j=0;j<i;j++)
         System.out.print("*");
-      }
+      
       System.out.println("");
     }
   }
